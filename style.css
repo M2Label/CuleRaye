@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #000000;
+  color: #FFD700;
+  line-height: 1.6;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portada {
+  background: url('textura-grano.jpg') no-repeat center center/cover;
+  color: #FFD700;
+}
+
+.LOGO {
+  width: 480px;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.portada h1 {
+  font-size: 4.0rem;
+  font-family: 'Pacifico', cursive;
+  margin-top: 1%;
+}
+
+
+.portada p, .portada h2 {
+  font-size: 1.5rem;
+  color: #F5E3C3;
+}
+
+.galeria-quienes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.galeria-quienes img {
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  object-fit: cover;
+}
+
+.quienes {
+  background-color: #F5E3C3;
+  color: #000000;
+}
+
+.quienes h2 {
+  color: #FF6F61;
+  font-size: 2.5rem;
+}
+
+.quienes h2 {
+  color: #FF6F61;
+  font-size: 2.5rem;
+}
+
+.imagen-arte {
+  width: 80%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.servicios {
+  background-color: #0F4C81;
+  color: #F5E3C3;
+}
+
+.servicios h2 {
+  font-size: 2.5rem;
+  color: #FFD700;
+}
+
+.grid-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.servicio {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #FFD700;
+}
+
+.identidad {
+  background: linear-gradient(135deg, #0F4C81, #F5E3C3);
+  color: #000;
+}
+
+.identidad h2 {
+  color: #FF6F61;
+  font-size: 2.5rem;
+}
+
+.contacto {
+  background-color: #FFD700; 
+  background-image: 
+    linear-gradient(rgba(255, 215, 0, 0.95), rgba(255, 215, 0, 0.95)),
+    url('img/grain-soft.png'),
+    url('img/texture-fiber.png'); 
+  background-size: cover, 800px, 600px;
+  background-blend-mode: multiply, soft-light, overlay;
+  color: #111;
+  padding: 70px 25px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+
+
+
+.contacto h2 {
+  font-size: 2.5rem;
+}
+
+.contacto a {
+  color: #0F4C81;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  background-color: #FF6F61;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4584f;
+}
